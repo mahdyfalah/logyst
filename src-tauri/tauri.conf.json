@@ -1,5 +1,5 @@
 {
-  "productName": "tauri-v2-sveltekit-template",
+  "productName": "logyst",
   "version": "0.0.0",
   "identifier": "com.tauri.dev",
   "build": {
@@ -12,7 +12,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "tauri-v2-sveltekit-template",
+        "title": "logyst",
         "width": 800,
         "height": 600
       }
