@@ -2562,6 +2562,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "90ed8c1e510134f979dbc4f070f87d4313098b704861a105fe34231c70a3901c"
 
 [[package]]
+name = "logyst"
+version = "0.0.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "surrealdb",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-shell",
+]
+
+[[package]]
 name = "loom"
 version = "0.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5309,18 +5321,6 @@ dependencies = [
  "url",
  "urlpattern",
  "walkdir",
-]
-
-[[package]]
-name = "tauri-v2-sveltekit-template"
-version = "0.0.0"
-dependencies = [
- "serde",
- "serde_json",
- "surrealdb",
- "tauri",
- "tauri-build",
- "tauri-plugin-shell",
 ]
 
 [[package]]
